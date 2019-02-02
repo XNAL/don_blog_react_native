@@ -1,0 +1,3 @@
+rootProject.name = 'don_blog_react_native'
+
+include ':app'
