@@ -43,7 +43,7 @@ const TabNavigator = createBottomTabNavigator(
       activeTintColor: '#2d8cf0', // 选中的颜色
       inactiveTintColor: '#8F8F8F', // 未选中的颜色
       style: {
-        backgroundColor: '#f3f3f3',
+        backgroundColor: '#fff',
         height: 54
       },
       tabStyle: {
@@ -89,7 +89,7 @@ const stackNavigator = createStackNavigator(
     initialRouteName: 'Index',
     defaultNavigationOptions: {
       headerStyle: {
-        backgroundColor: '#f3f3f3',
+        backgroundColor: '#fff',
       },
       headerTintColor: '#333',
       headerTitleStyle: {
